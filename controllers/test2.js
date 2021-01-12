@@ -4,6 +4,6 @@ const interleave = ([ x, ...xs ], ys = []) => {
       : [ x, ...interleave (ys, xs) ]
 };
 
-exports.joinLists = (req, res) => {
+exports.joinListsAlternatingly = (req, res) => {
     res.status(200).json(interleave(req.body.list1, req.body.list2));
 };
