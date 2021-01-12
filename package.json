@@ -1,0 +1,18 @@
+{
+  "name": "lavoir-moderne",
+  "version": "1.0.0",
+  "description": "just a technical test",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "rxjs": "~6.6.0"
+  }
+}
